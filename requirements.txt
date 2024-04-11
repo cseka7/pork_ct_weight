@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+bokeh
+openpyxl
+tqdm
+imageio
+ipykernel
+jupyter
