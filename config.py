@@ -2,7 +2,7 @@ import os
 
 threshold=0.5
 
-bin_width=20
+bin_width=10
 bin_min=-200
 bin_max=200
 
