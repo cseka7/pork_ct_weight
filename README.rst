@@ -1,20 +1,8 @@
-Case study of estimating the weights of valuable meat cuts from the CT images of chicken
+Case study of estimating the weights of pork from the CT images of pig
 ====
 
 About
 ----
-
-This repository implements the analysis and application described in the paper
-
-.. code-block:: BibTex
-
-    @article{Csoka2021,
-        author={\'Ad\'am Cs\'oka and Szilvia Eszter Simon and Tam\'as P\'eter Farkas and S\'andor Sz\'asz and Zolt\'an S\"ut\''o and \"Ors Petneh\'azy and Gy\"orgy Kov\'acs snd Imre Repa and Tam\'as Donk\'o},
-        title={ESTIMATION OF THE VALUABLE BROILER CHICKEN MEAT PARTS MASS FROM CT IMAGES USING ELASTIC REGISTRATION},
-        year={2024}
-    }
-
-Preprint:
 
 Contents
 ----
@@ -30,17 +18,17 @@ Jupyter notebooks
 Other files
 ****
 
-1. ```config.py``` - high level configuration parameters.
-2. ```requirements.txt``` - package requirements.
-3. ```results.csv``` - raw results of the regression analysis with feature selection.
-4. ```results.pickle``` - raw results of the regression analysis with feature selection in pickle format.
-5. ```results.csv``` - raw results of the regression analysis without feature selection.
-6. ```results.pickle``` - raw results of the regression analysis without feature selection in pickle format.
-7. ```thigh_r2.tex``` - collected r^2 results of the thigh in tex (typesetting language) format.
-8. ```brest_r2.tex``` - collected r^2 results of the brest in tex (typesetting language) format.
-9. ```thigh_rmse.tex``` - collected rmse results of the thigh in tex (typesetting language) format.
-10. ```brest_rmse.tex``` - collected rmse results of the thigh in tex (typesetting language) format.
-11. ```chicken_dissected_data.xlsx``` - results of the dissection study.
+.. 1. ```config.py``` - high level configuration parameters.
+.. 2. ```requirements.txt``` - package requirements.
+.. 3. ```results.csv``` - raw results of the regression analysis with feature selection.
+.. 4. ```results.pickle``` - raw results of the regression analysis with feature selection in pickle format.
+.. 5. ```results.csv``` - raw results of the regression analysis without feature selection.
+.. 6. ```results.pickle``` - raw results of the regression analysis without feature selection in pickle format.
+.. 7. ```thigh_r2.tex``` - collected r^2 results of the thigh in tex (typesetting language) format.
+.. 8. ```brest_r2.tex``` - collected r^2 results of the brest in tex (typesetting language) format.
+.. 9. ```thigh_rmse.tex``` - collected rmse results of the thigh in tex (typesetting language) format.
+.. 10. ```brest_rmse.tex``` - collected rmse results of the thigh in tex (typesetting language) format.
+.. 11. ```pork_dissected_data.xlsx``` - results of the dissection study.
 
 Reproducing the results of the paper
 ----
@@ -61,11 +49,11 @@ Navigate into the root directory of the ```maweight``` repository and issue
 
     > pip install .
 
-Clone this package (chicken_ct_weights):
+Clone this package (pork_ct_weights):
 
 .. code-block:: bash
 
-    > git clone https://github.com/cseka7/chicken_ct_weights.git
+    > git clone https://github.com/cseka7/pork_ct_weights.git
 
 
 Navigate into the root directory of this package, and issue
