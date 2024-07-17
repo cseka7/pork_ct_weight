@@ -65,7 +65,8 @@ Navigate into the root directory of this package, and issue
 Download the raw data
 ****
 
-Download the CT images corresponding to the dissection study and the manual annotations from the link .. https://drive.google.com/file/d/1OSuIPioxqATuH4Q3VsUCBcCPUWHNsl1y/view?usp=sharing and extract its contents to the ```data``` directory.
+Download the CT images corresponding to the dissection study and the manual annotations from the link 
+.. https://drive.google.com/file/d/1OSuIPioxqATuH4Q3VsUCBcCPUWHNsl1y/view?usp=sharing and extract its contents to the ```data``` directory.
 
 Update the paths
 ****
